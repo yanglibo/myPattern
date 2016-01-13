@@ -1,5 +1,8 @@
-package com.myPattern;
+package com.myPattern.Singleton;
 
+import com.myPattern.singleton.SingletonPatternDblClock;
+import com.myPattern.singleton.SingletonPatternHungry;
+import com.myPattern.singleton.SingletonPatternLazy;
 import org.junit.Test;
 
 /**

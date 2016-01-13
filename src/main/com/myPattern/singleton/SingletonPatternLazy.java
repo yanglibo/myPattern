@@ -1,4 +1,4 @@
-package com.myPattern;
+package com.myPattern.singleton;
 
 /**
  * Created by Administrator on 2016/1/13.
