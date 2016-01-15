@@ -8,8 +8,8 @@ import org.junit.Test;
 public class FactoryTest {
     @Test
     public void testFactory(){
-        AbstractFactory southFactory = new AbstractFactorySouth();
-        AbstractFactory northFactory = new AbstractFactoryNorth();
+        AbstractFactory southFactory = new FactorySouth();
+        AbstractFactory northFactory = new FactoryNorth();
         System.out.println(southFactory.createFruit().getClassName());
         System.out.println(southFactory.createVeggie().getClassName());
         System.out.println(northFactory.createFruit().getClassName());

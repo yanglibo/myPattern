@@ -3,7 +3,7 @@ package com.myPattern.factory;
 /**
  * Created by Administrator on 2016/1/14.
  */
-public class AbstractFactoryNorth implements AbstractFactory {
+public class FactoryNorth implements AbstractFactory {
     @Override
     public NorthFruit createFruit() {
         return new NorthFruit();
